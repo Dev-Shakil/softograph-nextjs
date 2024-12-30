@@ -3,6 +3,7 @@ import CaseStudies from "./component/CaseStudies";
 import Footer from "./component/Footer";
 import HeroSection from "./component/HeroSection";
 import HeroSlider from "./component/HeroSlider";
+import Insights from "./component/Insights";
 import OurOfferings from "./component/OurOfferings";
 import Roadmap from "./component/Roadmap";
 import Scope from "./component/Scope";
@@ -37,6 +38,7 @@ export default function Home() {
       <OurOfferings/>
       <Scope/>
       <Roadmap/>
+      <Insights/>
       <Footer/>
     </>
   );
